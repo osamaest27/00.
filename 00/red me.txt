@@ -1,0 +1,18 @@
+# Sivar AI Agent - Documentation
+
+## 🚀 Overview
+نظام ذكاء اصطناعي محلي خاص بمشروع "سفّار"، يعتمد على نموذج `Qwen2.5-coder` عبر `Ollama`.
+
+## 🛠 Features
+- **Local Memory:** تخزين المحادثات في `agent_memory.json`.
+- **UI:** واجهة تفاعلية باستخدام `Streamlit`.
+- **Easy Launch:** تشغيل بضغطة زر عبر `Launch_Sivar.bat`.
+
+## ⚙️ How to use
+1. تأكد من تشغيل Ollama في الخلفية.
+2. اضغط مرتين على `Launch_Sivar.bat`.
+3. استخدم الأزرار لتنفيذ المهام البرمجية.
+
+## 📝 Future Scope
+- إضافة ربط مباشر مع قاعدة بيانات Supabase.
+- إضافة ميزة "الرفع والتحليل" للملفات الكبيرة.

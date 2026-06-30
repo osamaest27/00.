@@ -1,0 +1,34 @@
+/* تنسيق التطبيق العام */
+.stApp {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* تنسيق خانة إدخال النص */
+.stTextInput > div > div > input {
+    background-color: rgba(82, 16, 66, 0.9) !important;
+    border: 2px solid #14c033 !important;
+    border-radius: 10px !important;
+    color: #b52828 !important;
+}
+
+/* تنسيق الأزرار لتصبح أكثر عصرية */
+div.stButton > button {
+    background-color: #14c033 !important;
+    color: white !important;
+    border-radius: 8px !important;
+    border: none !important;
+    transition: 0.3s !important;
+}
+
+div.stButton > button:hover {
+    background-color: #0f9126 !important;
+    box-shadow: 0 4px 8px rgba(214, 11, 11, 0.979) !important;
+}
+
+/* إضافة شفافية للصناديق الجانبية */
+section[data-testid="stSidebar"] {
+    background-color: rgb(148, 23, 129);
+}
